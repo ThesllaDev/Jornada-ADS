@@ -102,3 +102,106 @@ Os principais tipos de dados de uma variável são números inteiros, números f
 | *Boolean* | ``` var verdadeiro = true ``` |
 | *Array* | ``` var stack = ["HTML", "CSS", "JavaScript"] ``` |
 | *Objeto* | ``` var carro = { marca: "Tesla", cor: "cinza", ano: 2023} ```
+
+
+## Controles de fluxo
+
+As estruturas de condição ou de repetição são usadas para controlar o fluxo de execução de um programa baseado em determinadas condições. Permitindo ao programador criar lógica de tomada de decisões dentro do algoritmo.
+
+---
+
+### Estruturas de condições
+
+### If, else if e else
+
+Estas declarações são usadas para executar um determinado bloco de código se a condição lógica for verdadeira. Exemplo de condicional "if(se), else if(ou se) e else(senão)":
+
+```
+  int idade = 25;
+
+    // condicao
+  if (idade < 18) {
+    // bloco de código
+    Console.WriteLine("Você é menor de idade.");
+  } else if(idade >= 18 && idade <= 30) {
+    Console.WriteLine("Você é um adulto jovem.");
+  } else {
+    Console.WriteLine("Você é um adulto experiente");
+  }
+```
+
+"If" é usado para especificar uma condição que deve ser verificada. Se a condição for verdadeira, as ações especificadas dentro do bloco "if" serão executadas.
+
+"Else if" é usado para especificar múltiplas condições adicionais que devem ser verificadas, caso a condição anterior seja falsa.
+
+"Else" é executado caso todas as condições anteriores sejam falsas.
+
+---
+
+### Switch
+
+A estrutura de "switch" é usada para selecionar uma das várias ações com base em uma expressão. É uma alternativa mais simples e concisa do que "if-else" quando há várias possíveis condições. Exemplo: 
+
+```
+Console.WriteLine("Escolha uma das opções abaixo para a executar a operação:")
+
+switch (opcao) {
+  case 1:
+    Console.WriteLine("1 - Soma");
+  break;
+  case 2:
+    Console.WriteLine("2 - Subtração");
+  break;
+  case 3:
+    Console.WriteLine("3 - Multiplicação");
+  break;
+  case 4:
+    Console.WriteLine("4 - Divisão");
+  break;
+  default:
+    Console.WriteLine("Opção selecionada inválida");
+}
+```
+
+Neste exemplo o algoritmo verifica a condição até encontrar o valor correspondente. Quando é encontrado, a ação especificada é executada. Se nenhum dos "case" for verdadeiro a ação executada será o "default".
+
+---
+
+### Estruturas de repetição
+
+As estruturas de repetição são um jeito mais fácil de executar uma ação ou um conjunto de tarefas diversas vezes.
+
+### For
+
+A estrutura "for" é usada quando se sabe quantas vezes a tarefa deve ser repetida. Ela possui uma variável de contagem que é incrementada ou decrementada em cada iteração. A repetição ocorrera até que a condição especificada seja falsa.
+
+```
+  for(int i = 1; i <= 10; i++) {
+    Console.WriteLine( i + " x 7 = " + i * 7);
+  }
+```
+
+O exemplo acima mostra no console a tabuada do 7.
+
+---
+
+### While
+
+A estrutura "while" é usada quando se quer repetir uma tarefa enquanto a condição for verdadeira.
+
+```
+  int contagem = 0;
+
+  while(contagem < 10) {
+    Console.WriteLine("O número atual é " + contagem);
+    contagem++;
+  }
+```
+
+O exemplo acima mostra no console uma contagem de número iniciando em 0 até o valor especificado.
+
+---
+
+### Do-while
+
+O "do-while" é semelhante a estrutura "while", exceto pelo fato de que a tarefa é executada pelo menos umas vez, independente da condição.
