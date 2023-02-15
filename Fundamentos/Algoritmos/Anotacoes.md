@@ -17,4 +17,4 @@ Exemplo de algoritmo simples para calcular a média de umas lista de números:
 
 Um fluxograma é uma representação gráfica de um processo ou algoritmo, utilizado para representar de forma clara e concisa os passos e as decisões envolvidos em um processo. Eles são compostos por símbolos e setas que indicam o fluxo de informação ou decisão, e são usados para facilitar a comunicação e o entendimento de um processo.
 
-![](../Assets/exemplo-de-fluxograma.jpg)
+![](../../Assets/exemplo-de-fluxograma.jpg)
