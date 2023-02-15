@@ -9,6 +9,14 @@
     - [Operadores de incremento e decremento](#operadores-de-incremento-e-decremento)
     - [Operadores de comparação](#operadores-de-comparação)
   - [Tipos de dados](#tipos-de-dados)
+  - [Controles de fluxo](#controles-de-fluxo)
+    - [Estruturas de condições](#estruturas-de-condições)
+    - [If, else if e else](#if-else-if-e-else)
+    - [Switch](#switch)
+    - [Estruturas de repetição](#estruturas-de-repetição)
+    - [For](#for)
+    - [While](#while)
+    - [Do-while](#do-while)
 
 # Lógica de programação
 
@@ -103,7 +111,6 @@ Os principais tipos de dados de uma variável são números inteiros, números f
 | *Array* | ``` var stack = ["HTML", "CSS", "JavaScript"] ``` |
 | *Objeto* | ``` var carro = { marca: "Tesla", cor: "cinza", ano: 2023} ```
 
-
 ## Controles de fluxo
 
 As estruturas de condição ou de repetição são usadas para controlar o fluxo de execução de um programa baseado em determinadas condições. Permitindo ao programador criar lógica de tomada de decisões dentro do algoritmo.
@@ -140,7 +147,7 @@ Estas declarações são usadas para executar um determinado bloco de código se
 
 ### Switch
 
-A estrutura de "switch" é usada para selecionar uma das várias ações com base em uma expressão. É uma alternativa mais simples e concisa do que "if-else" quando há várias possíveis condições. Exemplo: 
+A estrutura de "switch" é usada para selecionar uma das várias ações com base em uma expressão. É uma alternativa mais simples e concisa do que "if-else" quando há várias possíveis condições. Exemplo:
 
 ```
 Console.WriteLine("Escolha uma das opções abaixo para a executar a operação:")
