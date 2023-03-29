@@ -9,9 +9,12 @@ Este repositório é dedicado a documentar minha jornada de estudos no curso de 
 - Fundamentos
   - Algoritmos
     - [Anotações](https://github.com/ThesllaDev/Jornada-ADS/blob/main/Fundamentos/Algoritmos/Anotacoes.md)
-    - [Exercícios](https://github.com/ThesllaDev/Jornada-ADS/tree/main/Fundamentos/Algoritmos/Exercicios)
+    - [Exercícios](./Fundamentos/Algoritmos/Exercicios/Exercicios.md)
   - Lógica de programação
     - [Anotações](https://github.com/ThesllaDev/Jornada-ADS/blob/main/Fundamentos/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o/Anota%C3%A7%C3%B5es.md)
-    - [Exercícios](https://github.com/ThesllaDev/Jornada-ADS/tree/main/Fundamentos/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o/Exerc%C3%ADcios)
+    - [Exercícios](./Fundamentos/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o/Exerc%C3%ADcios/Exercicios.md)
 - Linguagens de programação
-  - [C#](https://github.com/ThesllaDev/Jornada-ADS/tree/main/Linguagens/C%23)
+  - C#
+    - [Exercícios](./Linguagens/C%23/Exercicios/Exercicios.md)
+
+---
