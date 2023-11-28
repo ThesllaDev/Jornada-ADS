@@ -14,7 +14,7 @@ Este repositório é dedicado a documentar minha jornada de estudos no curso de 
     - [Anotações](https://github.com/ThesllaDev/Jornada-ADS/blob/main/Fundamentos/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o/Anota%C3%A7%C3%B5es.md)
     - [Exercícios](./Fundamentos/L%C3%B3gica%20de%20programa%C3%A7%C3%A3o/Exerc%C3%ADcios/Exercicios.md)
 - Linguagens de programação
-  - C#
-    - [Exercícios](./Linguagens/C%23/Exercicios/Exercicios.md)
+  - C#(CSharp)
+    - [Exercícios](./Linguagens/CSharp/Exercicios/Exercicios.md)
 
 ---
