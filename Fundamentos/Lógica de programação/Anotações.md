@@ -32,16 +32,31 @@ As variáveis são objetos que permitem armazenar e manipular informações. Exi
 
 ### Nomeação
 
-Para inicializar uma variável declaramos o tipo dela, var(variável) ou const(constante), seguido do nome da variável (Os nomes devem ser significativos que refletem o que estão armazenando)
+A nomeação e declaração de váriaveis mudam de acordo com a linguagem de programação utilizada.
+
+Para inicializar uma variável em JavaScript declaramos o tipo dela, var(variável) ou const(constante), seguido do nome da variável (Os nomes devem ser significativos que refletem o que estão armazenando) exemplo em JavaScript:
 
 ```
-var Nome
+var nomeDaVariavel
+const nomeDaConstante
 ```
 
-Ao inicializar uma variável podemos também já atribuir um valor a ela, utilizando o operador "```=```" :
+Em C# para declarar uma variável primeiro informamos o tipo de dados(mais explicações nos próximos tópicos) e em seguida o nome, exemplo:
 
 ```
-var Nome = Thalles
+string nome;
+```
+
+Ao inicializar uma variável podemos também já atribuir um valor a ela, utilizando o operador "```=```".
+
+Exemplo em JavaScript:
+```
+var Nome = "Thalles"
+```
+
+Exemplo em C#:
+```
+string nome = "Thalles";
 ```
 
 ---
@@ -68,7 +83,7 @@ Os esperadores de expressão são uma combinação de valores interpretados de a
 | ``` += ``` | *Equivalente ao valor da variável mais o valor especificado* | ``` x = 3; x += 6; ``` | ``` x = 9 ```
 | ``` -= ``` | *Equivalente a variável menos o valor* | ``` x = 9; x -= 6 ``` | ``` x = 3 ```
 | ``` *= ``` | *Equivalente a variável vezes o valor* | ``` x = 7; x *= 3 ``` | ``` x = 21 ```
-| ``` /= ``` | *Divide o valor à esquerda pelo valor à direita e retorna o novo valor* | ``` x = 7; x /= 3 ``` | ``` x = 21 ```
+| ``` /= ``` | *Divide o valor à esquerda pelo valor à direita e retorna o novo valor* | ``` x = 21; x /= 3 ``` | ``` x = 7 ```
 
 ---
 
@@ -78,7 +93,9 @@ Os operadores de incremento(++) e decremento(--) são usados para aumentar ou di
 
 ```
  var x = 9
- y = x++ // x é atribuído a y e depois incrementado para 6
+ x++ // x agora tem o valor de 10
+ var y = 10
+ y-- // y agora tem o valor de 9
 ```
 
 ---
@@ -89,7 +106,7 @@ Quando queremos fazer testes de verdadeiro ou falso, para então dar continuidad
 
 | Operador | Nome | Explicação | Exemplo |
 | ------------- | ------------- | ------------- | ------------- |
-| ``` === ``` | *Igualdade estrita* | *Verifica se o valor e o tipo da variável são idênticos* | ``` nome === 'Thalles' ```
+| ``` == ``` | *Igualdade estrita* | *Verifica se o valor e o tipo da variável são idênticos* | ``` nome == "Thalles" ```
 | ``` !== ``` | *Negação/diferente* | *Verifica se os valores não são iguais* | ``` 3 != 6 ```
 | ``` > ``` | *Maior que* | *Testa se o valor da direita é maior que o da esquerda* | ``` 7 > 10 ```
 | ``` < ``` | *Menor que* | *Testa se o valor da direita é menor que o da esquerda* | ``` 9 < 10 ```
@@ -104,11 +121,11 @@ Os principais tipos de dados de uma variável são números inteiros, números f
 
 | Tipo | Exemplo |
 | ------------- | ------------- |
-| *Número inteiro* | ``` var idade = 25 ``` |
-| *Número flutuante* | ``` var nota = 9.6 ``` |
-| *String(Os valores de texto devem ficar dentro das aspas)* | ``` var saudacao = "Olá mundo!" ``` |
-| *Boolean* | ``` var verdadeiro = true ``` |
-| *Array* | ``` var stack = ["HTML", "CSS", "JavaScript"] ``` |
+| *Número inteiro* | ``` int idade = 25 ``` |
+| *Número flutuante* | ``` float nota = 9.6 ``` |
+| *String(Os valores de texto devem ficar dentro das aspas)* | ``` string saudacao = "Olá mundo!" ``` |
+| *Boolean* | ``` bool verdadeiro = true ``` |
+| *Array* | ``` string[] stack = {"HTML", "CSS", "JavaScript"} ``` |
 | *Objeto* | ``` var carro = { marca: "Tesla", cor: "cinza", ano: 2023} ```
 
 ## Controles de fluxo
@@ -212,3 +229,12 @@ O exemplo acima mostra no console uma contagem de número iniciando em 0 até o 
 ### Do-while
 
 O "do-while" é semelhante a estrutura "while", exceto pelo fato de que a tarefa é executada pelo menos umas vez, independente da condição.
+
+```
+  int contagem = 0;
+
+  do {
+    Console.WriteLine("O número atual é " + contagem);
+    contador++;
+  } while (contador < 10 );
+```
